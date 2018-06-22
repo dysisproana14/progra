@@ -1,0 +1,405 @@
+<html>
+<head>
+<title> Ecologia </title>
+</head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="main.js"></script>
+<script>
+$(function(){
+$('a[href*=#]').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+&& location.hostname == this.hostname) {
+var $target = $(this.hash);
+$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+if ($target.length) {
+var targetOffset = $target.offset().top;
+$('html,body').animate({scrollTop: targetOffset}, 800);
+return false;
+}
+}
+});
+});
+</script>
+
+<style type="text/css">
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	margin:auto;
+}
+</style>
+<style type="text/css">
+*{
+  padding:0;
+  margin:0;
+}
+#header{
+margin:auto;
+width:70%;
+max-width:1000px;
+margin:auto;
+font-family:Arial, Helvita, sans-serif;
+position:relative;
+z-index:1000;
+top:0;
+}
+ul,ol{
+list-style:none;
+}
+.nav li a{
+background-color:#003000;
+color:#fff;
+text-decoration:none;
+padding:20px 10px;
+display:block;
+}
+.nav li a:hover{
+background-color:#434343;
+transition: .2s ease;
+}
+.nav >li{
+float:left;
+}
+.nav li ul{
+display:none;
+position:absolute;
+min-width:140px;
+}
+.nav li:hover > ul{
+display:block;
+}
+</style>
+
+<body>
+
+	<header>
+	<marquee bgcolor="#dfefdf" scrollamount="15" ><center><img src="aver.png" height="150" width="240"></img> </center>
+<center><i>Piensa diferente, hazlo diferente, simplemente hazlo.</i> </center> </marquee><br><br>
+
+<center><font size="6" face="Garamond"><b>REPTILES EN PELIGRO DE EXTINCION</b></font></center><br>
+<center><hr size="3px" width="90%" align="center" color="#663300"></center>
+		<div class="contenedor">
+		<br>
+		<br>
+			<nav class="menu">
+				<div id="header">
+			<ul class="nav">
+			  <li><a href="index.html">INICIO</a></li>
+  <li><a href="#critico">PELIGRO DE EXTINCION CRITICO</a></li>
+  <li><a href="#">REPTILES</a>
+   <ul>
+   <li><a href="#iguana">IGUANA DE RICORD</a></li>
+   <li><a href="#gila">MONSTRUO DE GILA</a></li>
+   <li><a href="#carey">TORTUGA CAREY</a></li>
+   <li><a href="#morelet">COCODRILO DE MORELET</a></li>
+   </ul>
+  </li>
+  <li><a href="#video">VIDEO</a></li>
+  <li><a href="#cuestionario">CUESTIONARIO Y COMENTARIOS</a></li>
+  <li><a href="#enlace">ENLACES</a></li>
+  </ul>
+		</div>
+			</nav>
+		</div>
+	</header>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<font size="3" face="Arial">
+<p align="justify">
+<center><font size="5" face="Times New Roman"> ¿Que es un Reptil? </font></center><br>
+Es un animal vertebrado que carece de patas o que las tiene muy cortas, por lo que, al caminar, roza el suelo con su vientre. Se trata de animales que pueden 
+ser ovíparos u ovovivíparos y que presentan una temperatura variable.<br>
+La piel de los reptiles se encuentra cubierta de escamas de queratina, una sustancia proteica que es rica en azufre. De esta forma, los reptiles pueden vivir 
+en hábitat muy secos, como los desiertos.<br>
+</p><br>
+
+<p align="justify">
+<center><font size="5" face="Times New Roman"> ¿Que es Peligro de Extinción? </font></center><br>
+Se refiere a la probabilidad de que una especie animal o vegetal desaparezca: a mayor peligro, mayor probabilidad 
+de extinción. La existencia de una especie en peligro de extinción, por lo tanto, se encuentra comprometida.<br>
+Las causas que pueden llevar a una especie al peligro de extinción son variadas. La desaparición de un recurso del 
+cual la especie dependa, la destrucción del hábitat, la depredación directa y el cambio climático son motivos 
+potenciales de extinción.<br>
+</p><br>
+
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+<center><a name="critico"><font size="5" face="Times New Roman"> Reptiles en Peligro de Extinción Critico </font></a></center><br><br>
+A continuación se te presentara la tabla de reptiles en peligro de extinción critico y las causas de porque sucede. <br><br>
+<center><table width="80%">
+<tr><th style="text-align:center;background-color:#3f9f3f"><font face="Times New Roman"> IMAGEN </font></th> <th style="text-align:center;background-color:#3f9f3f">
+<font face="Times New Roman"> NOMBRE </font></th> <th style="text-align:center;background-color:#3f9f3f"><font face="Times New Roman"> AMENAZAS DE EXTINCIÓN </font></th></tr>
+
+<tr>
+<td align="center" valign="middle"><img src="aruba.jpg" height="140px" width="190px"></img> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Serpiente Cascabel Aruba </i>(Crotaculos unicolor)</i> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> La actividad turística y el comercio ilegal son dos causas por las cuales están en peligro crítico de extinción. </td>
+</tr>
+
+<tr>
+<td align="center" valign="middle"><img src="enano.jpg" height="140px" width="190px"></img> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Camaleón Enano del Cabo <i>(Bradypodion pumilum)</i> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Por su aspecto llamativo se captura para comercializarlo como mascota exótica, está en peligro. </td>
+</tr>
+
+<tr>
+<td align="center" valign="middle"><img src="chino.jpg" height="140px" width="190px"></img> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Caimán Chino <i>(Alligator sinensis)</i> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> En peligro crítico por la destrucción de su hábitat y por el desarrollo de asentamientos urbanos.  </td>
+</tr>
+
+<tr>
+<td align="center" valign="middle"><img src="fiji.jpg" height="140px" width="190px"></img> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Iguana de Fiji <i>(Brachylophusb Vitiensis)</i> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> En peligro crítico, los gatos domésticos introducidos, las ratas y mangostas las cazan y se alimentan de sus huevos.  </td>
+</tr>
+
+<tr>
+<td align="center" valign="middle"><img src="pesca.jpg" height="140px" width="190px"></img> </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Pesca Incidental </td>
+<td align="center" valign="middle" style="text-align:center;background-color:#bfdfbf"> Las tortugas quedan atrapadas en las redes de pesca y mueren.   </td>
+</tr>
+
+</table></center> <br>
+
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+<center><font size="6" face="Times New Roman"> Reptiles </font></center><br><br>
+Aqui te presentamos algunos reptiles que estan en Peligro de Extinción en el Mundo.<br><br>
+
+<center><a name="iguana"><h2><i><font color="#007000">Iguana de Ricord</font></i></h2></a></center><br>
+<center><img src="igu.jpg" border="2" width="330" height="300"></center></img></br>
+<p align="justify">
+<b><font color="#404040">Nombre común:</font></b> La Iguana de Ricord o Iguana Ricordi<br>
+<b><font color="#404040">Nombre cientifíco:</font></b> <i>Cyclura ricordi</i> <br><br>
+
+Es una especie de lagarto perteneciente a la familia de los iguánidos. Es una especie endémica de la isla de La Española. En la península de 
+Barahona, la población de iguanas de Ricord se ven amenazadas por la expansión de la frontera agrícola y el pastoreo de ganado, así como la producción de 
+carbón. <br>
+También es cazada y atrapada por el hombre como fuente de alimento, y es a veces asesinada por pastores de cabras porque creen,
+equivocadamente, que las iguanas pueden rasgar y abrir los vientres del ganado con sus crestas puntiagudas. <br><br>
+
+<b><font color="#404040">Características</font></b><br>
+La iguana de Ricord se caracteriza porque su iris es de color rojo y por las escamas de su cola, que forman anillos. Además se diferencia de otras 
+iguanas porque tiene cuatro bandas transversales de tonalidad oscura en la parte superior y el color gris de su cuerpo. Además dispone espinas dorsales 
+muy pronunciadas.<br><img src="hari.jpg" height="190" width="270" align="right"></img>
+Pueden llegar a alcanzar una longitud aproximada de 50 cm los machos, y entre 40-43 cm las hembras. <br><br>
+
+<b><font color="#404040">Distribucion y Hábitad</font></b></br>  
+<p align="left">Comparado con iguanas de rinoceronte, las iguanas de Ricord son completamente especializadas. Parece que varios factores ambientales claves, incluso 
+profundidad de suelo y textura, landform, lecho de roca material paternal, y clima determinan su presencia. Las iguanas de Ricord habitan las regiones más 
+áridas de la República Dominicana, donde el clima es muy estacional. <br>
+La iguana de Ricord habita en matorrales xerófilos secos, con suelos arenosos y de barro donde excava las madrigueras que sirven de refugio o de nido, 
+y que sigue expandiendo a lo largo de los años.? Por lo general las entradas a estas madrigueras son excavadas bajo densa vegetación espinosa, arbustos, 
+troncos, o rocas expuestas.Los animales adultos de esta especie son principalmente terrestres, mientras que los juveniles tienden a ocupar refugios 
+arbóreos.</p><br>
+
+Hasta 2008 se pensaba que la iguana de Ricord se encontraba únicamente en el suroeste de la República Dominicana, y que se limitaba a la zona árida del 
+valle de Neiba y la parte más xerófila de las tierras bajas costeras de la península de Barahona.? Estas dos poblaciones están separadas por la Sierra de 
+Bahoruco (Massif de la Selle en Haití), que alcanza más de 2000 msnm y que forma una extensa barrera ecológica,aunque periodos climáticos secos durante el 
+Pleistoceno pueden haber permitido el intercambio genético entre las dos subpoblaciones. En 2008 se descubrió la existencia de una pequeña población en 
+Anse-a-Pitres, Haití. A lo largo de su área de distribución, la iguana de Ricord coexiste con la iguana rinoceronte, y hay registros de ambas especies 
+nadando y flotando en agua dulce.<br>
+La Española es la única isla del Caribe donde coexisten dos especies del género Cyclura.<br>
+</p><br><br>
+
+
+<center><a name="gila"><h2><i><font color="#007000">Monstruo de Gila</font></i></h2></a></center><br>
+<center><img src="gila.jpg" border="2" height="215" width="370"></img></center><br>
+<p align="justify">
+<b><font color="#7f0000">Nombre común:</font></b> Monstruo de Gila <br>
+<b><font color="#7f0000">Nombre cientifíco:</font></b> <i>Heloderma suspectum</i> <br><br>
+
+El monstruo de Gila es un lagarto venenoso de América del Norte, a menudo temido por los seres humanos. Hay 2 
+subespecies: el monstruo de Gila reticulado <i>(Heloderma suspectum suspectum)</i> y el monstruo de Gila bandeado 
+<i>(Heloderma suspectum cinctum)</i>.<br><br> 
+
+<b><font color="#7f0000">Características</font></b> <br>
+El monstruo de Gila es el lagarto más grande nativo de América del Norte, mide aproximadamente entre 35 y 58,5 cm de largo. Tiene una figura 
+corpulenta con patas pequeñas, poderosas garras y una cola corta y gruesa donde almacena la grasa que utiliza como energía durante la 
+hibernación o cuando hay escasez de alimentos.El monstruo de Gila se desplaza con exagerada lentitud. No sabe correr e intentaríamos 
+en vano ahuyentar a uno de estos reptiles. De 500 g a 1 kg de peso, es un reptil pasivo de lentos movimientos.<br>
+El cuerpo de este reptil es largo y robusto, con una cola corta pero gruesa. Tiene la piel recubierta de escamas 
+óseas con bordes de color amarillo, naranja, rosa y negro. Su cabeza, barbilla, cuello y patas son color negro; <img src="hamo.jpg" height="210" width="380" align="right"></img>
+estas últimas son fuertes, pesadas y con poderosas garras. Los ojos tienen pupilas redondas y tiene por oídos unas 
+ranuras estrechas. <br><br>
+
+<b><font color="#7f0000">Distribución y Hábitat</font></b> <br>
+El monstruo de Gila se extiende a lo largo del suroeste de Estados Unidos y del noroeste de México, 
+en Norteamérica. En concreto, se pueden encontrar ejemplares desde Utah, el sur de Nevada, en California, en 
+Arizona (E.U.A.) y a través de Sonora y Sinaloa (México).<br>
+Habita zonas áridas a altitudes desde el nivel del mar hasta los 1,500 metros. Está presente en hábitats de 
+matorrales secos, en desiertos, en colinas rocosas, en las laderas, en el fondo de los cañones y en las áreas 
+cercanas a los arroyos en donde haya cactus, arbustos y hierbas.<br><br>
+
+<b><font color="#7f0000">Amenazas del Monstruo de Gila</font></b> <br>
+El monstruo de Gila es una especie que está “Casi Amenazada”, de acuerdo con la Unión Internacional para la 
+Conservación de la Naturaleza. Sus poblaciones se ven afectadas por la destrucción de su hábitat como consecuencia 
+de la expansión humana y en la actualidad muchos ejemplares se venden para ser mascotas exóticas.<br>
+Por otro lado, el miedo que genera este reptil provocó su caza y captura varios años atrás, aunque en realidad 
+representa poca amenaza en vista de sus lentos movimientos. Actualmente se encuentra protegido en todos los estados 
+en los que se encuentra.<br>
+</p><br><br>
+
+<center><a name="carey"><h2><i><font color="#007000">Tortuga Carey</font></i></h2></a><br>
+<img src="to.jpg" border="2" height="230px" width="300px"></img>
+<img src="animales.jpg" border="2" height="230px" width="300px"></img></center>
+<p align="justify">
+<b><font color="#00007f">Nombre común:</font></b> Tortuga Carey <br>
+<b><font color="#00007f">Nombre cientifíco:</font></b> <i>Eretmochelys imbricata</i> <br><br>
+
+Consideradas por muchos como la más bella de las tortugas marinas con sus conchas de colores, la tortuga carey  se encuentra en las aguas tropicales 
+de todo el mundo. Pasan su tiempo en los arrecifes de coral, zonas rocosas, lagunas, islas oceánicas, y las zonas costeras de poca profundidad.<br>
+Llamado así por su estrecha cabeza y agudo pico de pájaro, las tortugas carey pueden alcanzar las grietas y hendiduras de los arrecifes de coral en busca<br>
+de comida. Su dieta es muy especializada, alimentándose casi exclusivamente de esponjas.<br>
+Una de las tortugas más pequeñas, los adultos pesan entre 100-200 libras (45-90 Kg.) y llegar a 2-3 pies (más o menos 0,5 a 1 metro) de longitud.<br><br>
+
+<b><font color="#00007f">Caracteristicas</font></b><br>
+1. Pueden alcanzar velocidades de 24 km/h y se han registrado desplazamientos de hasta 1.8 km. Pueden sumergirse hasta 70 metros por más de 80 minutos.<br>
+2. Las tortuga carey adultas miden entre 60 y 90-100 cm de largo en el caparazón y entre 50 y 80 kg de peso.<br>
+3. Su caparazón es de color combinado con claros y oscuros en amarillos y marrones. Su forma es de corazón, pero conforme maduran, se hace más alargado
+    hasta llegar a una figura oval.<br>
+4. El caparazón está conformado por  gruesas placas que se superponen, creando una circunferencia que simula unos afilados dientes de cuchillo o una sierra.<br>
+5. Su mandíbula tiene forma de pico, por lo que también es parte de sus rasgos distintivos.<br>
+6. La diferencia entre machos y hembras puede distinguirse porque los primeros tienen una pigmentación más clara, tienen peto cóncavo, garras más largas <img src="hato.png" height="150" width="380" align="right"></img>
+    y una cola más ancha.<br><br> 
+
+<b><font color="#00007f">Distribucion y Hábitat</font></b><br> 
+Esta especie habita en regiones tropicales y algunas regiones sub-tropicales en el Atlántico, el Pacífico y el Índico. <br>
+Las poblaciones más grandes se encuentran en el Mar Caribe, Indonesia, México y Australia. <br>
+Las tortugas carey no se encuentran en el Mediterráneo y algunas se encuentran en las aguas de Estados Unidos, y sólo un puñado anida en la Florida 
+cada año.<br><br>
+
+<b><font color="#00007f">Causas de Extinción</font></b><br>
+<font color="#007000"><i>Comercio:</i></font> En su hermoso caparazón(concha). Su caparazón, de colores brillantes con diseños intrincados, se comercializa internacionalmente con fines ornamentales.La cáscara se utiliza para artículos tales como joyas, peines y cepillos, y las incrustaciones en muebles y otras piezas decorativas.<br>
+<font color="#007000"><i>Caza:</i></font> Las tortugas carey fueron cazadas casi hasta su extinción antes de la prohibición del comercio de carey; Japón importó un estimado de 2 millones de tortugas, entre 1950 y 1992. A pesar del hecho de que el comercio internacional de sus conchas es ilegal, todavía hay un floreciente mercado negro.<br>
+<font color="#007000"><i>Destrucción del hábitat de anidación y alimentación.</i></font><br>
+<font color="#007000"><i>La contaminación.</i></font><br>
+Prácticas de <font color="#007000"><i>pesca destructivas</i></font>, como la pesca con dinamita.<br>
+Al igual que muchas tortugas marinas, la tortuga carey es una especie en peligro crítico debido principalmente al <font color="#007000"><i>impacto humano</i></font>.Los huevos de carey se comen en todo el mundo a pesar de estado de protección internacional de la tortuga, y que a menudo son asesinadas por sus impresionantes conchas.<br>
+</p><br>
+<center><img src="cato.jpg" border="1" height="210" width="310"></img>
+<img src="cator.jpg" border="1" height="210" width="330"></img></center> <br><br>
+
+
+<center><a name="morelet"><h2><i><font color="#007000">Cocodrilo de Morelet</font></i></h2></a></center><br>
+<center><img src="cocodrilo.jpg" border="2" width="400" height="230"></center><br>
+<p align="justify">
+<b><font color="#404040">Nombre común:</font></b> Cocodrilo de Morelet o Cocodrilo Mexicano <br>
+<b><font color="#404040">Nombre cientifíco:</font></b> <i>Crocodylus moreletti</i> <br><br>
+
+Es una especie de cocodrilo de pequeño tamaño distribuido por Guatemala, Belice y todo el golfo de México en los estados de Tamaulipas, Veracruz, Tabasco, 
+Campeche, Yucatán, Quintana Roo y Chiapas. Por lo general alcanza unos 3 metros de longitud.<br>
+El cocodrilo de Morelet o cocodrilo mexicano fue descubierto en México en 1850 y lleva el nombre del naturalista francés que hizo el descubrimiento, 
+el P.M.A. Morelet (1809-1892). Se confunde mucho con el cocodrilo cubano y el cocodrilo americano, porque son de características similares, comunes entre 
+las especies. No se dieron cuenta de que eran una especie totalmente diferente hasta la década de 1920. Los cocodrilos actuales provienen de un antiguo 
+linaje que comprende más de 125 géneros.<br><br>
+
+<b><font color="#404040">Caracteristicas</font></b><br>
+Destaca su amplio hocico, con 66-68 dientes cuando están completamente maduros. Los cocodrilos se pueden distinguir de los lagartos a causa de sus dientes 
+tanto en su mandíbula superior como en la inferior. Sus dientes en ambas mandíbulas están perfectamente alineados. El cuarto diente de la mandíbula inferior 
+del cocodrilo es visible cuando su mandíbula se cierra debido a que es ligeramente más grande.<br>
+Las fosas nasales se encuentran enfrente de la boca, y luego directamente detrás de ellas están los ojos, y en seguida las orejas, los tres están en la 
+parte superior su cabeza. Cuando está casi totalmente sumergido, todavía tiene la capacidad de oler, oír y conocer sus alrededores. Los cocodrilos pueden 
+ver bajo el agua debido a su membrana nictitante que rodea el ojo.Son de color gris oscuro-marrón. <br>
+Tienen bandas oscuras y manchas en el cuerpo y la cola. Esto es similar a otros cocodrilos, como el cocodrilo americano,<img src="haco.png" height="200" width="195" align="right"></img> 
+pero el moreletii es algo más oscuro. Los cocodrilos jóvenes son de color amarillo brillante con algunas bandas oscuras. Tienen cuatro patas, dos delanteras 
+y dos traseras, junto con una larga cola que utilizan para nadar. Las patas traseras de los cocodrilos están unidas por una membrana, son cortas, por ello 
+los cocodrilos siempre se encuentran muy cerca de la tierra.<br><br>
+
+<b><font color="#404040">Distribucion y Hábitat</font></b><br>
+El cocodrilo de Morelet se puede encontrar en hábitats de agua dulce en América Central y en la costa del Golfo de México, se extiende a través de Belice, 
+Guatemala y México. En los hábitats de agua dulce prefieren sus zonas desoladas, que se encuentren aisladas.
+Esta especie de cocodrilo se puede encontrar en gran parte; en pantanos de agua dulce y pantanos que se encuentran tierra adentro, y en los grandes ríos y 
+lagos.Ambos de estos hábitats cubiertos de bosques para ayudar a agregar la cubierta.<br><br>
+
+<b><font color="#404040">Amenazas del Cocodrilo de Morelet</font></b><br>
+El cocodrilo de Morelet, ha sido amenazado por la destrucción de su hábitat y la caza ilegal. Ambos factores han reducido significativamente sus 
+poblaciones. Se le cazaba por su piel durante los años 1940 y 1950, con el fin de ser utilizado para hacer carteras, abrigos y zapatos con su piel.<br><br>
+</p>
+<center><img src="caco.jpg" border="1" height="200" width="400"></img></center><br><br>
+
+
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+<center><font size="5" face="Times New Roman">¿SABIAS QUE?...</font></center><br><br>
+<center><video src="reptiles.mp4" height="370" width="600" preload="none" controls></video></center><br><br>
+
+
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+<center><font size="5" face="Times New Roman"><a name="cuestionario">CUESTIONARIO Y COMENTARIOS</a></font></center><br><br>
+
+<form action="mailto:liz-13leslie@hotmail.com" method="post">
+<font size="4" face="Times New Roman"> A continuación se te realizaran unas breves preguntas las cuales deberas de responder <br><br>
+<fieldset>
+<legend> CONTESTA </legend>
+<input type="hidden" name="Edades" value="edades de usuarios">
+1.- Selecciona cual es tu edad:
+<select name="Edad">
+<option> Menos de 15 
+<option> Entre 15 y 25  
+<option> Mas de 25 
+</select> <br><br>
+
+2.- ¿Te gusto nuestra pagina web? <br>
+<input type="radio" name="nuestra" value="si"> Si
+<input type="radio" name="nuestra" value="no"> No 
+<input type="radio" name="nuestra" value="talvez"> Tal vez <br><br>
+
+3.- ¿Qué te gusto de la pagina? <Br>
+<input type="checkbox" name="gusto" value="tabla"> La tabla <br>
+<input type="checkbox" name="gusto" value="diseño"> El diseño en general <br>
+<input type="checkbox" name="gusto" value="menu"> El menu <br>
+<input type="checkbox" name="gusto" value="imagenes"> Las imagenes <br>
+<input type="checkbox" name="gusto" value="contenido"> El contenido <br>
+<input type="checkbox" name="gusto" value="colores"> Los colores <br>
+
+4.- ¿Qué opinas de nuestra pagina web? <br>
+<input type="radio" name="opinas" value="Semana"> Es significativo <br>
+<input type="radio" name="opinas" value="Mes"> Estuvo interesante <br>
+<input type="radio" name="opinas" value="Entre"> Me agrado la información contenida <br>
+<input type="radio" name="opinas" value="Mas"> No me agrado en lo absoluto <br><br>
+
+5.- ¿Qué tema te gustaria sugerir? <br>
+<textarea name="tema" rows="5" cols="40"></textarea>
+
+</fieldset> <br>
+
+<fieldset>
+<legend> Haz nos conocer tu opinión, así nos ayudaras a mejorar cada día </legend>
+<textarea name="comentario" rows="6" cols="40"></textarea>
+</fieldset> <br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+
+</font>
+</form><br><br>
+
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+<center><font size="5" face="Times New Roman"><a name="enlace">ENLACES</a></font></center><br><br>
+
+Para mas informacion consulta los siguientes enlaces<br><br>
+<a href="http://www.iucnredlist.org/" target="_blank">Lista Roja</a><br>
+<a href="https://www.medioambiente.net/la-lista-roja-de-reptiles-en-peligro-de-extincion/" target="_blank">¿Que es la lista roja?</a><br>
+<a href="http://www.animalesenpeligrodeextincionenmexico.com/reptiles-en-peligro-de-extincion.html" target="_blank">Reptiles en Peligro de Extinción (Reptilia)</a><br><br>
+
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+<center><font size="8" color="#002000" face="Times New Roman"><i>“La caza es siempre una forma de guerra“</i></font></center><br>
+<center><font size="6" color="#002000" face="Times New Roman"><i>Johann Wolfgang von Goethe (1749 – 1832)</i></font></center><br><br>
+<center><hr size="3px" width="90%" align="center" color="#663300"></center><br>
+
+</font>
+</body>
+</html>
